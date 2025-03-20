@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Décodeur de César</title>
 
+</head>
+<body>
+
+ <d1>
+    <h2>Décodeur de Chiffrement de César</h2>
+    <label for="decalage">Décalage/Clé (nombre) :</label>
+    <input type="number" id="decalage" value="3" min="1" max="127"><br>
+
+    <label><input type="radio" name="alphabet" value="fr" checked> Utiliser l'alphabet français (26 lettres de A à Z)</label><br>
+    <label><input type="radio" name="alphabet" value="fr_digits"> Utiliser l'alphabet français et décaler aussi les chiffres 0-9</label><br>
+    <label><input type="radio" name="alphabet" value="latin"> Utiliser l'alphabet latin du temps de César (23 lettres, ni J, ni U, ni W)</label><br>
+    <label><input type="radio" name="alphabet" value="ascii"> Utiliser la table ASCII (0-127) comme alphabet</label><br>
+    <label><input type="radio" name="alphabet" value="custom"> Utiliser un alphabet personnalisé</label><br>
+    <textarea id="inputText" placeholder="Entrez le texte ici..."></textarea><br>
+    <button onclick="chiffrerCesar()">Chiffrer</button>
+    <button onclick="decodeCesar()">Déchiffrer</button>
+    <div class="result" id="output"></div>
+
+</d1>
+</body>
+
+</html>
