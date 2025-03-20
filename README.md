@@ -50,7 +50,35 @@ En option, des algorithmes plus simples comme **le chiffre de César ou le chiff
 │── README.md       # Documentation du projet  
 └── rapport.pdf     # Rapport décrivant le travail en équipe  
 ```
+## 📂 Structure du projet  
 
+1. `index.html`
+
+Le fichier *HTML* contient la structure de la page, incluant :
+- Un champ de texte pour entrer le message à chiffrer.
+- Un champ pour entrer la valeur du décalage (le nombre d'unités de décalage pour le chiffrement).
+- Un bouton pour effectuer l'action de chiffrement et afficher les résultats.
+- Des sections pour afficher le message chiffré et déchiffré.
+
+2. `styles.css`
+
+Le fichier *CSS* applique un design simple à la page :
+- Il centre la page avec des styles de base pour le texte, les boutons et les champs de saisie.
+- Des couleurs et des effets de survol sont ajoutés pour améliorer l'expérience utilisateur.
+
+3. `script.js`
+
+Le fichier *JavaScript* contient la logique de chiffrement et déchiffrement :
+- La fonction `chiffrementCesar()` effectue le chiffrement en décalant les caractères de l'alphabet en fonction du décalage choisi.
+- La fonction `dechiffrementCesar()` utilise un décalage négatif pour inverser le chiffrement.
+- Le script écoute le clic sur le bouton "Chiffrer" pour appliquer le chiffrement et afficher les résultats dans la page.
+
+## Comment utiliser
+
+1. Clonez ce dépôt sur votre machine.
+2. Ouvrez le fichier `index.html` dans votre navigateur.
+3. Entrez un message dans le champ prévu, définissez un décalage, et appuyez sur le bouton *Chiffrer*.
+4. Vous verrez le texte chiffré et le texte déchiffré s'afficher en dessous.
 ## 🤝 Collaboration  
 Ce projet est réalisé en **équipe de 3 à 4 étudiants**. L'utilisation de **Git et GitHub** est recommandée pour une gestion efficace du code et des contributions de chacun.  
 
