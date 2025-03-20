@@ -1,7 +1,4 @@
 # Dechiffrage
-Voici un README bien structuré pour votre projet GitHub :  
-
----
 
 # 🔐 Devoir de Cybersécurité : Système de Chiffrement  
 
