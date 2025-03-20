@@ -55,14 +55,9 @@ En option, des algorithmes plus simples comme **le chiffre de César ou le chiff
 Ce projet est réalisé en **équipe de 3 à 4 étudiants**. L'utilisation de **Git et GitHub** est recommandée pour une gestion efficace du code et des contributions de chacun.  
 
 ## ✍️ Auteurs  
-- **Nom 1**  
-- **Nom 2**  
-- **Nom 3**  
-- **Nom 4**  
+- **Lamour Christian**  
+- **Dorvilien Genephile**  
+- **Laurat Ferrentz**    
 
 ## 📜 Licence  
 Ce projet est sous licence MIT – voir le fichier [LICENSE](LICENSE) pour plus de détails.  
-
----
-
-Tu peux adapter ce README selon ton projet (ajouter des noms, liens, détails techniques). Besoin d’une autre version ou d’améliorations ? 😊
