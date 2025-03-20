@@ -43,12 +43,13 @@ En option, des algorithmes plus simples comme **le chiffre de César ou le chiff
 
 ## 📂 Structure du projet  
 ```
-/projet-chiffrement/
-│── index.html      # Interface de l’application  
-│── Css             # Design et mise en page  
-│── Javascript      # Logique du chiffrement/déchiffrement  
-│── README.md       # Documentation du projet  
-└── rapport.pdf     # Rapport décrivant le travail en équipe  
+/Dechiffrage
+  ├── Css/
+  │   ├── style.css
+  ├── Javascript/
+  │   ├── script.js
+  ├── index.html
+  ├── README.md
 ```
 ## 📂 Structure du projet  
 
