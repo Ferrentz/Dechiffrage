@@ -45,8 +45,8 @@ En option, des algorithmes plus simples comme **le chiffre de César ou le chiff
 ```
 /projet-chiffrement/
 │── index.html      # Interface de l’application  
-│── style.css       # Design et mise en page  
-│── script.js       # Logique du chiffrement/déchiffrement  
+│── Css             # Design et mise en page  
+│── Javascript      # Logique du chiffrement/déchiffrement  
 │── README.md       # Documentation du projet  
 └── rapport.pdf     # Rapport décrivant le travail en équipe  
 ```
